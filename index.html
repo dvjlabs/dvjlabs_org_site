@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Da Vinci Jesi Labs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, black 0%, #434343 100%);
+    min-height: 60%;
+}
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">DVJ LABS</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#project" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PROGETTI</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#project" onclick="w3_close()" class="w3-bar-item w3-button">PROGETTI</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Da Vinci Jesi Labs</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Da Vinci Jesi Labs</span><br>
+    <span class="w3-large">Sito del dipartimento di informatica del <a href="https://www.liceodavincijesi.edu.it">Liceo Da Vinci di Jesi</a>.</span>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:64px 16px" id="about">
+  <h3 class="w3-center">ABOUT DVJ LABS</h3>
+  <p class="w3-center w3-large">Le nostre caratteristiche principali</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Informatica</p>
+      <p>La varietà dei temi affrontati nei corsi ci permette di migliorare le conoscenze informatiche dei nostri studenti.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passione</p>
+      <p>Facciamo tutto questo per un unico motivo: trasmettere la nostra grande passione per la disciplina!</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Potenziamento</p>
+      <p>Corsi pomeridiani volontari di approfondimento disciplinare per gli studenti del corso di Scienze Applicate.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Supporto</p>
+      <p>Prima o poi organizzeremo anche corsi di recupero... però il potenziamento è troppo più divertente :)</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Promo Section - "Abbiamo la tecnologia" -->
+<div class="w3-container" style="padding:80px; background-image: linear-gradient(to right, black 0%, #434343 100%);">
+  <h3 class="w3-text-white w3-padding">Abbiamo la tecnologia!</h3>
+  <div class="w3-row-padding w3-text-white">
+    <div class="w3-twothird">
+      <p>E la mettiamo al servizio della nostra scuola e dei nostri studenti!<br>
+      Dacci qualche ora per lavorare su un tema e vedi<br> quello che ti cuciniamo per i nostri ragazzi...<br>
+      E quanto ci piace far vedere quello che sappiamo fare :)</p>
+      <p style="margin: 32px 0px"><a href="#project" class="w3-button w3-white"><i class="fa fa-th">&nbsp;</i> Guarda i Nostri Progetti</a></p>
+    </div>
+    <div class="w3-third">
+      <img class="w3-image w3-round-large w3-hover-opacity" src="/images/IoT.jpg" alt="Internet of Things">
+    </div>
+  </div>
+</div>
+
+
+<!-- Project Section -->
+<div class="w3-container" style="padding:64px 16px" id="project">
+<h3 class="w3-center">I NOSTRI PROGETTI</h3>
+<p class="w3-center w3-large">Vediamo cosa bolle in pentola...</p>
+
+<h4>A.S. 2019-2020</h4>
+
+<ul class="w3-ul w3-hoverable">
+<li onclick="location.href='/projects/mentecervello/'" style="cursor: pointer">
+<b>Mente e Cervello 2</b><br>
+Collaborazione con il dipartimento di storia e filosofia per un approccio multidisciplinare al tema dell'intelligenza
+</li>
+<li onclick="location.href='/projects/TODO.txt'" style="cursor: pointer">
+<b>3D Printing</b><br>
+Il liceo ha finalmente acquistato una stampante 3D!!! Primo corso base su come si utilizza :)
+</li>
+</ul>
+
+<br>
+
+<h4>A.S. 2018-2019</h4>
+
+<ul class="w3-ul w3-hoverable">
+<li onclick="location.href='/projects/MakerFaire2018/'" style="cursor: pointer">
+<b>Maker Faire</b><br>
+Le scienze applicate in visita al Maker Faire 2018. Nuovi stimoli per nuove idee ;) 
+</li>
+<li onclick="location.href='/projects/ai.leo/'" style="cursor: pointer">
+<b>Ai.Leo</b><br>
+Il progetto di realizzazione di una intelligenza artificiale "on board" e opensource!
+</li>
+<li onclick="location.href='/projects/jesi_invisibile/'" style="cursor: pointer">
+<b>PON: educazione al patrimonio culturale, artistico, paesaggistico</b><br>
+Realizzazione di un sito web sulle bellezze nascoste della nostra città: Jesi Invisibile
+</li>
+<li onclick="location.href='/projects/hw_1AS_2018_2019/'" style="cursor: pointer">
+<b>hardware!</b><br>
+Tesina online sull'hardware per computer, realizzata dalla 1AS dell'as 2018-2019!
+</li>
+</ul>
+
+<br>
+
+<h4>A.S. 2017-2018</h4>
+
+<ul class="w3-ul w3-hoverable">
+<li onclick="location.href='/projects/shell/'" style="cursor: pointer">
+<b>Shell Project</b><br>
+Il progetto cumulativo di minicorsi per l'anno scolastico 2017/2018, propedeutici all'iniziativa Raceberry.
+</li>
+<li onclick="location.href='/projects/raceberry/'" style="cursor: pointer">
+<b>Raceberry</b><br>
+Progettiamo una serie di macchinine radiocomandate e dotate di webcam: "DaVinciOnBoard"!!!
+</li>
+</ul>
+
+<br>
+
+<h4>A.S. 2016-2017</h4>
+
+<ul class="w3-ul w3-hoverable">
+<li onclick="location.href='/projects/SmartAir/'" style="cursor: pointer">
+<b>Smart Air</b><br>
+Un progetto basato sull'Internet of Things per il monitoraggio dell'aria in alcune zone della città.
+</li>
+</ul>
+
+<br>
+
+<h4>A.S. 2013-2014</h4>
+
+<ul class="w3-ul w3-hoverable">
+<li onclick="location.href='https://www.youtube.com/watch?v=tiz34xY_KvQ'" style="cursor: pointer">
+<b>Eyes from the Sky</b><br>
+Il progetto con il lancio di una sonda per rilevazioni fisico-chimiche.
+</li>
+</ul>
+
+<br>
+
+</div>
+
+
+<!-- Team Section -->
+<div class="w3-container w3-light-grey" style="padding:64px 16px" id="team">
+  <h3 class="w3-center">IL TEAM</h3>
+  <p class="w3-center w3-large">L'elenco completo dei colpevoli</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="/images/andrea.jpg" alt="Andrea" style="width:100%">
+        <div class="w3-container w3-white">
+          <h3>Andrea</h3>
+          <p class="w3-opacity">Docente</p>
+          <p>Programmazione C++, Librerie Qt, Progettazione siti web. E linux, i sistemi operativi, le reti... gli piace tutto!!!</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> <a href="mailto:andrea@dvjlabs.org">Contattalo</a></button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="/images/ciccio.png" alt="Ciccio" style="width:100%">
+        <div class="w3-container w3-white">
+          <h3>Ciccio</h3>
+          <p class="w3-opacity">Il compagno di merende</p>
+          <p>Ciccio arriva quando Pippo non basta... e si integra bene in ogni esempio che facciamo! Altro che foo e bar...</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-usd"></i> Offrigli un panino</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="/images/giorgio.jpg" alt="Giorgio" style="width:100%">
+        <div class="w3-container w3-white">
+          <h3>Giorgio</h3>
+          <p class="w3-opacity">Docente</p>
+          <p>La progettazione, i dispositivi, l'hardware, l'internet delle cose e delle persone. E L'entusiasmo di lavorarci...</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> <a href="mailto:giorgio@dvjlabs.org">Contattalo</a></button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="/images/pippo.png" alt="Pippo" style="width:100%">
+        <div class="w3-container w3-white">
+          <h3>Pippo</h3>
+          <p class="w3-opacity">L'esempio perfetto</p>
+          <p>Semplicemente l'esempio perfetto per una variabile informatica. Insieme a Ciccio. Ad esempio, prendi Pippo...</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-usd"></i> Nocciolina!</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-text-white w3-padding-64" style="background-image: linear-gradient(to right, black 0%, #434343 100%);">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+<p>Da Vinci Jesi Labs site. Some rights reserved</p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+<!-- JAVASCRIPT - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<script>
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

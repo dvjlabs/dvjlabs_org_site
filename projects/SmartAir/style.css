@@ -1,0 +1,245 @@
+/* layout fisso */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    background: url('images/background.jpg') #f0f1f0;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* stili generici */
+
+h1,h2 {
+    color: #999;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* questo è il contenitore generico del sito */
+
+#container {
+    max-width: 1200px;
+    min-width: 360px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/* header */
+
+#header {
+    margin-bottom:50px;
+    padding: 5px;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/* stili per il div topmenu */
+
+#topmenu {
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: right;
+}
+
+#topmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topmenu li {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0;
+    text-decoration: none;
+}
+
+#topmenu a {
+    color:#FFF;
+    font: normal bold;
+}
+
+#topmenu a#actualpage {
+    color:#FF0;
+    font: normal bold;
+}
+
+#topmenu li.icon {
+    display: none;
+}
+
+/* let things work different on small screen sizes... */
+@media screen and (max-width:680px) {
+    
+    #topmenu li:not(:first-child) {
+        display: none;
+    }
+    
+    #topmenu li.icon {
+        float: right;
+        display: inline-block;
+    }
+    
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+ * This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+    
+    #topmenu.responsive {
+        position: relative;
+    }
+    
+    #topmenu.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    #topmenu.responsive li {
+        float: none;
+        display: inline;
+    }
+    
+    #topmenu.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* links included in the content */
+#content a {
+    color: #00F;
+}
+
+#content a:hover {
+    color: #f00;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+.diagramblock {
+    margin: 10px;
+    width: 30%;
+    min-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.stickynote {
+    text-align: left;
+    margin-top: 50px;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,0.7);
+    transform: rotate(-3deg);
+}
+
+.yellow {
+    background:rgba(255, 206, 86, 0.5);    
+}
+
+.blue {
+    background:rgba(54, 162, 235, 0.5);        /* 54 162 235 */
+}
+
+.red {
+    background:rgba(255, 99, 132, 0.5);
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+.vcard {
+    background: #FFF;
+    box-shadow: 5px 5px 7px rgba(33,33,33,0.7);
+    margin: 20px;
+    max-width: 560px;
+    float: left;
+}
+
+.vcardtext {
+    padding: 20px 10px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* stile per il footer e il suo wrapper */
+#footerWrap { background-color:#222222; padding:40px 0; text-align: center; margin-top: 40px; }
+#footerWrap p { color:#fff;}
+
+/* ---------------------------------------------------------------------------------- */
+/* stili per i form */
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=mail] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    padding: 10px;
+    min-width: 40%;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=reset] {
+    padding: 10px;
+    min-width: 40%;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,7 @@
+HOST: sql.dvjlabs.org
+PORT: 3306
+
+DB: dvjlabso58213
+
+USER: dvjlabso58213
+PASS: dvjl23825

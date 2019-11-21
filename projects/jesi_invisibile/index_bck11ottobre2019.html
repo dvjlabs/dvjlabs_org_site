@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="it"> <!-- Gio -->
+<!-- ********************************************* -->
+<!-- Qui inizia il blocco head -->
+  <head>
+    <meta charset="utf-8">
+    <title>Liceo Da Vinci Jesi</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<!-- Qui FINISCE il blocco head -->
+<!-- ********************************************* -->
+
+<!-- ********************************************* -->
+<!-- Qui INIZIA il blocco body -->
+
+<body data-spy="scroll" data-target="#navbar-example">
+ <!-- qui inizia il NAVBAR -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+
+		<!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-example" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+		<a class="navbar-brand"><img src="img/logo_pon.svg" alt="logo PON"  height="60px" style="padding:10px"></a>
+		<a class="navbar-brand" href="#">Liceo Scientifico "L.Da Vinci" Jesi</a>
+	</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-example">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li><a href="#carousel">Home</a></li>
+<!--
+        <li><a href="#Mon1">Ditta Guerri</a></li>
+        <li><a href="#Mon2">Cascamificio</a></li>
+        <li><a href="#Mon3">Filanda Mancini</a></li>
+        <li><a href="#Mon4">Fornace</a></li>
+        <li><a href="#Mon5">Filanda Bigi - Agostinelli</a></li>
+        <li><a href="#Fab">Fabbrica di fiammiferi</a></li>
+        <li><a href="#Mon6">carteria albanesi</a></li>
+        <li><a href="#Mon7">zuccherificio</a></li>
+         -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Elenco siti di Interesse <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#Mon1">Canale Pallavicino</a></li>
+            <li><a href="#Mon2">Santa Caterina alle Valche</a></li>
+            <li><a href="#Mon3">La Fornace</a></li>
+            <li><a href="#Mon4">Cartiera Ripanti</a></li>
+            <li><a href="#Mon5">Cordai</a></li>
+            <li><a href="#Mon6">Filanda Mancini</a></li>
+            <li><a href="#Mon7">Saffa</a></li>
+            <li><a href="#Mon8">Cascamificio</a></li>
+            <li><a href="#Mon9">Ditta Guerri</a></li>
+            <li><a href="#Mon10">Filanda Bigi-Agostinelli</a></li>
+            <li><a href="#Mon11">S.I.M.A.</a></li>
+            <li><a href="#Mon12">Cartiera Albanesi</a></li>
+          </ul>
+        </li>
+        <li><a href="#Bibliografia">Bibliografia</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ITA<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="indexWebMaster.html">Italiano</a></li>
+            <li><a href="indexWebMasterENG.html">English</a></li>
+          </ul>
+        </li>
+		<!-- <li>
+          <a href="#"><img src="img/flagUK.jpg" alt="flag UK"></a>
+		 </li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+
+	<!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image: url(img/corda3.jpg);">
+      <div class="carousel-caption animated fadeInUp">
+        <h3 style="color:#ffffff; font-size: 30px">Cordai del Prato negli anni '50</h3>
+				<p></p>
+		   </div>
+    </div>
+    <div class="item" style="background-image: url(img/portavalle.jpg);">
+      <div class="carousel-caption animated fadeInUp">
+				<h3  style="color: rgba(255, 255, 255, 0.9); font-size: 30px">Porta Valle</h3>
+	       <p></p>
+	     </div>
+    </div>
+		<div class="item" style="background-image: url(img/zuccherificio1.jpg);">
+      <div class="carousel-caption animated fadeInUp">
+				<h3 style="color:#ffffff; font-size: 30px">La Sadam</h3>
+        <p style="color:#ffffff;">Società Anonima Distilleria Agricola Marchigiana</p>
+      </div>
+    </div>
+  </div>
+
+	<!-- Controls -->
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+<!-- qui FINISCE il carousel -->
+<!-- qui INIZIA il container -->
+
+<div class="container">
+<!-- INIZIO SEZIONE MONUMENTO -->
+<div class="row big-padding" id="Mon1">
+  <div class="col-sm-6"><br>
+   <img src="img/immagini vallato/Pallavicino1.jpg" alt="Pallavicino Jesi" class="img-responsive" width="100%">
+   </div>
+  <div class="col-sm-6">
+    <h3>Canale Pallavicino</h3>
+    <p class="lead">
+Il canale Pallavicino deve il proprio nome al marchese Stefano Lodovico Pallavicino che nel 1824 se lo aggiudicò 
+all’asta dal demanio pontificio. Il canale, che trae le sue acque dal fiume Esino, nasce a Moie e dopo alcuni 
+chilometri arriva a Jesi dove si immette nel torrente Granita. La funzione più importante del vallato-canale 
+nei secoli fu quella di fornire forza motrice ai mulini dislocati lungo il suo percorso, fino alle mura sudorientali 
+della città. La forza delle acque, 
+come attestano i documenti storici della Vallesina, venne sfruttata da mulini, valche e canali sin dal 1295 
+</div>
+</div>
+<h4>C'era una volta...</h4>
+  <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+  <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+  <div class="row zero-padding"> <!--riga 1 tempi passati-->
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/immagini vallato/Pallavicino2.jpg" alt="Immagine vallato Pallavicino"  class="img-responsive" width="100%">
+          <div class="caption">
+            <p>Il fosso Pallavicino nei pressi di portavalle.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/immagini vallato/Pallavicino3 copia.jpg" alt="Nature" class="img-responsive" width="100%">
+          <div class="caption">
+            <p>canale Pallavicino</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/immagini vallato/Pallavicino4.jpg" alt="Fjords" class="img-responsive" width="100%">
+          <div class="caption">
+            <p>Rotoni sul vallato</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- FINE SEZIONE MONUMENTO -->
+<hr style="color: black;">
+	<!-- INIZIO SEZIONE MONUMENTO -->
+  <div class="row big-padding" id="Mon2">
+    <div class="col-sm-6"> <br>
+    <img src="img/immagini Valche/chiesa.jpg" alt="Panorama Jesi" class="img-responsive" width="100%" >
+     </div>
+    <div class="col-sm-6">
+      <h3>Chiesa Santa Caterina alle Valche</h3>
+      <p class="lead">
+      <b>UBICAZIONE:</b> Via Santa Maria del Piano, Jesi<br>
+      <b>NASCITA:</b> XVI secolo<br></p>
+      <p>
+La chiesa di Santa Caterina alle Valche sorge lungo la via Clementina (odierna via Roma), a sud-est di  Jesi. 
+La sua costruzione risalirebbe al XVI secolo, quando, con la denominazione di Santa Maria della Vittoria, 
+sarebbe stata edificata a perenne ricordo della vittoriosa battaglia di Lepanto. La chiesa, eretta sui terreni 
+posseduti dai nobili Ripanti, passò nel XVIII secolo alla famiglia Mancini che collocò al suo interno un dipinto di 
+Santa Caterina. Negli anni a venire gli Jesini la ricorderanno come “Santa Caterina alle Valche” perché, 
+nel giorno della festa della santa, il 25 novembre, venivano celebrate in suo onore 
+delle solenni messe e perché lì vicino era situata una gualchiera (il toponimo Valche deriva da gualche, gualchiera).
+</p>
+
+
+    </div>
+  </div>
+  <h4>C'era una volta...</h4>
+    <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+    <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+    <div class="row zero-padding"> <!--riga 1 tempi passati-->
+      <div class="col-md-6">
+        <div class="thumbnail">
+
+            <img src="img/immagini Valche/tiburio.jpeg" alt="Lights"  class="img-responsive" width="100%">
+            <div class="caption">
+              <p>Particolare  interno del tiburio della chiesa</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="thumbnail">
+
+            <img src="img/immagini Valche/dipinto giusto.jpg" alt="Nature" class="img-responsive" width="100%">
+            <div class="caption">
+              <p>Dipinto Santa Caterina d'Alessandria,contenuto all'interno della chiesa</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+		<!-- FINE SEZIONE MONUMENTO -->
+    <hr>
+<!-- INIZIO SEZIONE MONUMENTO -->
+<div class="row big-padding" id="Mon3">
+  <div class="col-sm-6"> <br>
+     <img src="img/foto-03.jpg" alt="Panorama Jesi" class="img-responsive" width=100%>
+   </div>
+  <div class="col-sm-6">
+    <h3>La Fornace</h3>
+    <p class="lead"> <b>DATA DI COSTRUZIONE:</b> seconda metà del XVIII secolo <br>
+<b>UBICAZIONE:</b> Via Clementina (attuale Via Roma) <br> <br>
+La nascita della fornace, collocabile nella seconda metà del XVIII secolo, è connessa 
+all’apertura della strada Clementina, voluta dal papa Clemente XII. Il complesso 
+industriale, di proprietà dei marchesi Pianetti (in seguito delle famiglie Franciolini, Mancini e Sparaciari), 
+ebbe  già dai primi anni uno sviluppo intenso, attestato dalla profonda fossa artificiale che si creò nelle vicinanze  
+della fabbrica, un vero e proprio burrone originato dall’estrazione dell’argilla (la materia prima necessaria alla fornace).
+ La struttura da 
+qualche decennio è scomparsa e l’unico testimone della lavorazione dei mattoni è 
+l’antica ciminiera che svetta ancora oggi
+</p>
+  </div>
+</div>
+<h4>C'era una volta...</h4>
+  <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+  <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+  <div class="row zero-padding"> <!--riga 1 tempi passati-->
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/lavoro fornace.jpg" alt="Lights"  class="img-responsive"width=100%>
+          <div class="caption">
+            <p>Lavoro all'interno della fornace</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/ciminiera.jpg" alt="Nature" class="img-responsive"width=100%>
+          <div class="caption">
+            <p>Ciminiera della fornace</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/PHOTO-2019-02-25-15-04-37.jpg" alt="Fjords" class="img-responsive"width=100%>
+          <div class="caption">
+            <p>Lavoratori della fornace</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+<!-- FINE SEZIONE MONUMENTO -->
+<hr>
+<!-- INIZIO SEZIONE MONUMENTO -->
+<div class="row big-padding" id="Mon4">
+     <div class="col-sm-6"> <br>
+       <img src="img/Immagine1Ripanti.jpg" alt="cartiera Ripanti" class="img-responsive" width="100%">
+     </div>
+    <div class="col-sm-6">
+      <h3>Cartiera Ripanti</h3>
+      <p class="lead">
+      <b>FONDATORE:</b> conte Emilio Ripanti <br>
+      <b>DATA INIZIO ATTIVITA':</b> 1806 <br>
+      <b>UBICAZIONE:</b> Via Roma <br> </p>
+      <p>
+Nel 1806 il conte Emilio Ripanti decide di edificare a Jesi, sui suoi possedimenti, una cartiera. 
+La nuova realtà industriale sorta nel quartiere jesino delle Valche è così importante che ben presto il borgo 
+circostante assumerà la denominazione di “Borgo Cartiera”. La carta era ottenuta da stracci macerati. 
+I lavoratori impiegati nella produzione erano (intorno alla metà del XIX secolo) una cinquantina, 
+sia adulti che bambini. Nel 1870  la cartiera si automatizza e viene installata una macchina a 
+tamburo che riduce il numero degli operai. Nel 1880 si passa dall’energia idraulica a quella a vapore e durante il 
+ventennio fascista cessa la produzione di carta bianca e colorata e ne inizia una nuova di carta fine, per sigarette.  
+Negli anni Cinquanta del secolo scorso il fallimento e la chiusura definitiva.
+  </p>
+    </div>
+  </div>
+  <!-- FINE SEZIONE MONUMENTO -->
+  <hr>
+  <!-- INIZIO SEZIONE MONUMENTO -->
+  	<div class="row big-padding" id="Mon5">
+      <div class="col-sm-6"> <br>
+      <img src="img/immagini cordai/PICCOLOCORDAIO.jpg" alt="Panorama Jesi" class="img-responsive" width=100% >
+       </div>
+      <div class="col-sm-6">
+        <h3>I Cordai - XVIII-XIX secolo</h3>
+        <p class="lead"></p>
+
+        <p>La pianta della canapa è originaria dell’Asia Centrale.  
+		In Italia era coltivata in Emilia Romagna, in Piemonte e nel Napoletano per la
+		disponibilità delle acque e per le condizioni climatiche. Durante la 
+		lavorazione della canapa si procede in questo modo : si fa dapprima
+		l’assortimento, riunendola a fasci di uguale lunghezza, in seguito, 
+		dopo circa dieci giorni, i fasci vengono lavati e fatti asciugare.  
+		Così la fibra della canapa è pronta per essere immessa sul mercato e lavorata dal cordaio. 
+		La lavorazione prevede l’utilizzo di molti attrezzi attraverso i quali i fili vengono intrecciati 
+		e ritorti fino alla produzione della corda.  A Jesi ogni cordaio, con il suo gruppo, occupava uno 
+		spazio ben delimitato all’interno del “Prado”. Con questo nome si intendeva un quartiere popolare 
+		comprendente l’area del Grammercato, il Gallodoro e la zona che da Porta Valle giungeva fino alla 
+		stazione ferroviaria. Il Prado Piccolo era un’area ben definita del Prado, posta di fronte alla 
+		chiesetta di San Sebastiano. Esisteva anche il Prado Grande  (oggi corrispondente ai giardini 
+		che si affacciano su Via dei Cordai), 
+		un altro luogo in cui si svolgevano le attività dei cordai.
+
+      </div>
+    </div>
+    <h4>C'era una volta...</h4>
+      <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+      <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+      <div class="row zero-padding"> <!--riga 1 tempi passati-->
+        <div class="col-md-4">
+          <div class="thumbnail">
+
+              <img src="img/immagini cordai/corda1 ridotta.jpg" alt="Lights"  class="img-responsive" width="100%">
+              <div class="caption">
+                <p>corda lavorata</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+
+              <img src="img/immagini cordai/corda2 giusta.jpg" alt="Nature" class="img-responsive" width="100%">
+              <div class="caption">
+                <p>un autentico cordaio</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+
+              <img src="img/immagini cordai/corda3.jpg" alt="Nature" class="img-responsive" width="100%">
+              <div class="caption">
+                <p>i cordai a lavoro</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+  		<!-- FINE SEZIONE MONUMENTO -->
+      <hr>
+          <!-- INIZIO SEZIONE MONUMENTO -->
+          	<div class="row big-padding" id="Mon6">
+              <div class="col-sm-6"> <br>
+                 <img src="img/immagini mancini/filanda1.jpg" alt="filanda Mancini" class="img-responsive" width=100%>
+               </div>
+              <div class="col-sm-6">
+                <h3>Filanda Mancini</h3>
+                <p class="lead">
+                  <b>FONDATORE:</b> Pasquale Mancini <br>
+            <b>UBICAZIONE:</b> Via dei Macelli (attuale Via Castelfidardo) <br>
+            <b>INIZIO ATTIVITA':</b> 1837 <br> </p>
+          <p>  Era un impianto costituito da un edificio a pianta rettangolare, a più piani.
+		  Al piano terra erano posizionati i magazzini, mentre l’area di lavorazione era al 
+		  primo piano dove si aprivano alte finestre, con arco a tutto sesto, che miglioravano 
+		  l’areazione interna evitando il ristagno del vapore prodotto dalla bollitura dei bachi. 
+		  Dopo lo sviluppo della fabbrica, fino alla fine del XIX secolo, la filanda entra in crisi 
+		  negli anni Trenta del  secolo scorso. 
+		  Della struttura oggi rimane tutto il blocco di produzione trasformato in appartamenti privati    
+		  </p>
+              </div>
+            </div>
+            <h4>C'era una volta...</h4>
+              <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+              <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+              <div class="row zero-padding"> <!--riga 1 tempi passati-->
+                <div class="col-md-6">
+                  <div class="thumbnail">
+
+                      <img src="img/immagini mancini/immagine-filanda-mancini.jpg" alt="Lights"  class="img-responsive" width=100%>
+                      <div class="caption">
+                        <p>Il lavoro all'interno della filanda.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="thumbnail">
+
+                      <img src="img/immagini mancini/abitazione giusto.jpg" alt="Nature" class="img-responsive" width=100%>
+                      <div class="caption">
+                        <p>Castello degli eredi di Pasquale Mancini in contrada Montecappone</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          		<!-- FINE SEZIONE MONUMENTO -->
+              <hr>
+              <!-- INIZIO SEZIONE MONUMENTO -->
+            	<div class="row big-padding" id="Mon7">
+                <div class="col-sm-6"><br>
+                <img src="img/immagini saffa/saffa01.jpg" alt="S.A.F.F.A." class="img-responsive" width="100%">
+            		 </div>
+            		<div class="col-sm-6">
+            			<h3>S.A.F.F.A</h3>
+
+            		<p class="lead">
+
+                  <b> FONDATORE: </b>Schiavoni e Ponzelli<br>
+                  <b> UBICAZIONE: </b>Via Castelfidardo <br>
+                  <b> INIZIO ATTIVITA': </b>1873 <br></p>
+
+                  <p> Nel 1873, nell’attuale via Castelfidardo, veniva aperta una fabbrica di fiammiferi. 
+				  Lo stabilimento di Jesi occupava un’area di circa tremila metri quadrati e produceva ogni 
+				  anno circa due miliardi di fiammiferi di legno solforato. Agli inizi del secolo scorso contava 
+				  161 dipendenti, in gran parte donne. Nel 1937 la fabbrica passò alla S.A.F.F.A. 
+				  (Società Anonima Finanziaria Fiammiferi ed Affini) di Milano. Nello stabilimento di Jesi
+				  si producevano soprattutto fiammiferi di legno da cucina, conosciuti come fulminanti o zolfanelli (da zolfo). Col passare dei decenni, per ovviare alla crisi del settore, si cercò di introdurre nuove lavorazioni come i cerini e gli svedesi ma ciò non evitò la chiusura dello stabilimento, avvenuta il 3 maggio 1988. Se della struttura originaria si conserva ben poco, ancora integra è la ciminiera in mattoni risparmiata dai lavori di 
+				  lottizzazione che hanno interessato la zona nel corso degli anni Novanta del secolo scorso.
+				  </p>
+              </div>
+            	</div>
+            	<h4>C'era una volta...</h4>
+
+            	  <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+            	  <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+            	  <div class="row zero-padding"> <!--riga 1 tempi passati-->
+            	    <div class="col-md-4">
+            	      <div class="thumbnail">
+
+            	          <img src="img/immagini saffa/tipa.jpg" alt="Interni"  class="img-responsive" width="100%">
+            	          <div class="caption">
+            	            <p>dipendente al lavoro.</p>
+            	          </div>
+            	        </a>
+            	      </div>
+            	    </div>
+
+            	    <div class="col-md-4">
+            	      <div class="thumbnail">
+
+            	          <img src="img/immagini saffa/fiammiferi.jpg" alt="Fiammiferi" class="img-responsive" width="100%">
+            	          <div class="caption">
+            	            <p>fiammiferi prodotti dalla fabbrica.</p>
+            	          </div>
+            	        </a>
+            	      </div>
+            	    </div>
+                  <div class="col-md-4">
+                   <div class="thumbnail">
+
+                       <img src="img/immagini saffa/saffa.jpg" alt="vetrina" class="img-responsive" width="100%">
+                       <div class="caption">
+                         <p>Vetrina della Saffa</p>
+                       </div>
+                     </a>
+                   </div>
+                 </div>
+            	  </div>
+            		<!-- FINE SEZIONE MONUMENTO -->
+                <hr>
+                <!-- INIZIO SEZIONE MONUMENTO -->
+              	<div class="row big-padding" id="Mon8">
+                  <div class="col-sm-6"><br>
+
+                     <img src="img/immagini cascamificio/Diapositiva28.jpg" alt="cascamificio" class="img-responsive">
+                   </div>
+                  <div class="col-sm-6">
+                    <h3> Cascamificio</h3>
+
+                    <p class="lead">
+
+                    <b> FONDATORE: </b>Banco Industriale e Commerciale di Bologna<br>
+                    <b> UBICAZIONE: </b>Via Roma <br>
+                    <b> INIZIO ATTIVITA': </b>1875 <br></p>
+
+                    <p class="lead">
+					Il Cascamificio, costruito a Jesi lungo il canale Vallato, è stato un importante stabilimento per 
+					la cardatura e la filatura dei cascami di seta, ossia gli scarti della lavorazione delle filande. 
+					Venne fondato dalla Banca Industriale e Commerciale di Bologna nel 1873 ed iniziò la sua 
+					attività nel 1875. All’epoca dell’entrata in funzione la manodopera era costituita da 39 
+					uomini, 184 donne e 77 bambini, mentre nel 1891 lo stabilimento jesino occupava 102 uomini e 
+					530 donne (di cui 32 sotto i quindici anni). I prodotti finiti venivano esportati soprattutto in India e in Europa. La crisi del settore, negli anni Trenta del secolo scorso, causò un forte calo nella produzione 
+					che proseguì stancamente fino al 2002, anno  della sua chiusura
+					  </p>
+                  </div>
+                  </div>
+                  <h4>C'era una volta...</h4>
+                  <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+                  <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+                  <div class="row zero-padding"> <!--riga 1 tempi passati-->
+                    <div class="col-md-6">
+                      <div class="thumbnail">
+
+                          <img src="img/immagini cascamificio/ridimensione1.jpg" alt="cascamificio"  class="img-responsive" width="100%">
+                          <div class="caption">
+                            <p>Società AnonimaCardatura e Filatura dei Cascami di Seta nell'800</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="thumbnail">
+
+                          <img src="img/immagini cascamificio/libro1.jpg" alt="Cascamificio" class="img-responsive" width="100%">
+                          <div class="caption">
+                            <p>Foto degli impiegati negli anni 20</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    </div>
+                  <hr>
+                  <div class="row big-padding" id="Mon9">
+                    <div class="col-sm-6"><br>
+
+                       <img src="img/Immagini Ditta Guerri/DittaGuerri3.jpg" alt="Locandina" class="img-responsive">
+                     </div>
+                    <div class="col-sm-6">
+                      <h3>Ditta Guerri</h3>
+
+                      <p class="lead">
+
+                        <b> FONDATORE: </b>Giuseppe Guerri<br>
+                        <b> UBICAZIONE: </b>Via Roma <br>
+                        <b> INIZIO ATTIVITA': </b>1898 <br></p>
+<p>
+
+La ditta nasce nel 1898, all’interno dell’ Appannaggio, e da subito si specializza nella produzione di macchine agricole. In seguito la sede  viene trasferita in prossimità della stazione ferroviaria di Jesi. La “Guerri” pur essendo in forte espansione subisce le conseguenze della crisi del 1929  e più tardi delle distruzioni belliche; inoltre, la morte prematura del fondatore (avvenuta nel 1932) e del primogenito Guerrino (che era destinato a succedergli), nonché l’obsolescenza degli impianti dello stabilimento accelerano il declino dell’azienda che chiuderà la propria attività nel 1955.                   
+					</p>
+					</div>
+                  </div>
+                  <h4>C'era una volta...</h4>
+                    <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+                    <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+                    <div class="row zero-padding"> <!--riga 1 tempi passati-->
+                      <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="img/Immagini Ditta Guerri/DittaGuerri2.jpg" alt="Ditta Guerri 2"  class="img-responsive" width="100%">
+                            <div class="caption">
+                              <p>Veduta panoramica della Fabbrica di Macchine Agricole con fonderia di acciaio e ghisa. E' la prima fabbrica sorta in Italia e che è riuscita ad affrancare la nostra Nazione dall'importazione delle macchine agricole stranioere. Giuseppe Guerri - Jesi.</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="img/Immagini Ditta Guerri/DittaGuerri4.jpg" alt="ditta Guerri 4" class="img-responsive" width="100%">
+                            <div class="caption">
+                              <p>L'abitazione di Giuseppe Guerri in via XXIV Maggio. Con i suoi 20.000 mq, di cui oltre 10.000 coperti, restò a lungo il primo della città.</p>
+                            </div>
+                          
+                        </div>
+                      </div>
+                      <!-- <div class="col-md-4">
+                        <div class="thumbnail">
+                          <a href="img/immagini Ditta Guerri/DittaGuerri1.jpg" target="_blank">
+                            <img src="img/immagini Ditta Guerri/DittaGuerri1.jpg" alt="ditta Guerri" class="img-responsive">
+                            <div class="caption">
+                              <p>Posizone geografica Ditta Guerri.</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div> -->
+                    </div>
+                    <hr>
+
+<div class="row big-padding" id="Mon10">
+  <div class="col-sm-6"><br>
+   <img src="img/immagini bigi/immaginefilandamoderna.jpg" alt="Filanda come si presenta oggi" class="img-responsive" width="100%">
+   </div>
+  <div class="col-sm-6">
+  <h3>Filanda Bigi - Agostinelli</h3>
+    <p class="lead">
+
+      <b> FONDATORE: </b>silvio Bigi<br>
+      <b> UBICAZIONE: </b>Viale Trieste (ex Viale della Stazione) <br>
+      <b> INIZIO ATTIVITA': </b>1906 <br></p>
+<p>
+L’azienda jesina era inizialmente guidata da Silvio Bigi il quale dovette dichiarare bancarotta a causa della svalutazione della lira e della conseguente recessione economica. La filanda, quindi, fu acquistata da Mariano Agostinelli.  Dopo la seconda guerra mondiale, il nuovo proprietario fece installare in via Mazzoleni una batteria di dodici telai tecnologicamente all’avanguardia che producevano 150 metri di tessuto al giorno.  Nacque l’ ISA (Industrie Seriche Agostinelli). Nel 1963, di fronte ad una concorrenza sempre 
+più agguerrita e a causa pure dell’età avanzata dell’imprenditore, Mariano Agostinelli decise di chiudere l’attività	  
+	  </p>
+  </div>
+  </div>
+  <h4>C'era una volta...</h4>
+  <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+  <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+  <div class="row zero-padding"> <!--riga 1 tempi passati-->
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/immagini bigi/immaginefilandaantica.jpg" alt="Lights"  class="img-responsive" width="100%">
+          <div class="caption">
+            <p>La filanda come si presentava negli anni 30</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/immagini bigi/filanda-bigi-agostinelli-1.jpg" alt="Nature" class="img-responsive" width="100%">
+          <div class="caption">
+            <p>scorcio del vicolo della filanda</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+
+          <img src="img/immagini bigi/filanda-bigi-2.jpg" alt="Fjords" class="img-responsive" width="100%">
+          <div class="caption">
+            <p>La filanda vista da fuori con la caretteristica torre della sua fornace</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row big-padding" id="Mon11">
+    <div class="col-sm-6"><br>
+			 <img src="img/immagini sima/immagine4-modificata.jpg" alt="Panorama Jesi" class="img-responsive">
+		 </div>
+		<div class="col-sm-6">
+			<h3>LA S.I.M.A.</h3>
+			<p class="lead">
+      <b>NOME:</b> LA S.I.M.A.
+    <br>
+      <b>INIZIO ATTIVITA':</b> 1926
+    <br>
+      <b>UBICAZIONE:</b> Zona Prato, Vicino Portavalle.
+    <br> </p>
+      <p>
+La S.I.M.A. (Società Jesina Macchine Agrarie) nasce nel 1926. Dopo un inizio non esaltante,
+ l’azienda vive una stagione di grande sviluppo grazie alla guida del dr. Gustavo Rigo. 
+ Lo stabilimento produce aratri per trattori, ma alla fine degli anni Trenta si apre al settore delle macchine olearie. 
+ Dopo la guerra, nonostante i gravi danni subiti, si afferma come la prima industria della città e riesce a sopravvivere 
+ anche alla pesante crisi del 1956 grazie 
+all’aiuto di un gruppo azionario di Torino. Negli anni Settanta il nuovo stabilimento si trasferisce in via Roncaglia	
+		</p>
+		</div>
+	</div>
+	<h4>C'era una volta...</h4>
+	  <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+	  <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+	  <div class="row zero-padding"> <!--riga 1 tempi passati-->
+	    <div class="col-md-4">
+	      <div class="thumbnail">
+
+	          <img src="img/immagini sima/Immagine3.jpg" alt="Lights"  class="img-responsive">
+	          <div class="caption">
+	            <p>La palazzina uffici e l'ingresso della S.I.M.A. di Via Mazzini.</p>
+	          </div>
+	        </a>
+	      </div>
+	    </div>
+	    <div class="col-md-4">
+	      <div class="thumbnail">
+
+	          <img src="img/immagini sima/Immagine5.jpg" alt="Nature" class="img-responsive">
+	          <div class="caption">
+	            <p>Il reparto macchine negli anni '50'</p>
+	          </div>
+	        </a>
+	      </div>
+	    </div>
+      <div class="col-md-4">
+	      <div class="thumbnail">
+
+	          <img src="img/immagini sima/Immagine6.jpg" alt="Nature" class="img-responsive">
+	          <div class="caption">
+	            <p>Due tipiche locandine per mostre della S.I.M.A. nel primo dopoguerra.</p>
+	          </div>
+	        </a>
+	      </div>
+	    </div>
+	  </div>
+    <hr>
+
+    <div class="row big-padding" id="Mon12">
+      <div class="col-sm-6">
+         <img src="img/immagini cartiera albanesi/cartiera.jpg" alt="Panorama Jesi" class="img-responsive" width=100%>
+       </div>
+      <div class="col-sm-6">
+        <h3>Cartiera Albanesi</h3>
+        <p class="lead">
+          <b>FONDATORE:</b> Alberto Albanesi<br>
+          <b>UBICAZIONE:</b> Via Santa Maria del Piano 0, Jesi<br>
+          <b>INIZIO ATTIVITA':</b> 1937<br>
+          
+
+          <p>
+La cartiera dell’industriale Alberto Albanesi ha rappresentato una delle ultime attività manifatturiere impiantate a Jesi. 
+Essa occupò i locali di una filanda attiva dal 1873. L’imprenditore jesino, dopo aver acquisito negli anni Trenta gran parte delle filande disponibili in città,  trasformò quella di via Santa Maria in una nuova ed efficiente cartiera. Intorno agli anni Sessanta era ancora una delle aziende più importanti della città : 
+produceva cartone, carta per imballaggio e lavorava carta riciclata. L’azienda ha chiuso la propria attività nel 1990.
+</p>
+
+
+      </div>
+    </div>
+    <h4>C'era una volta...</h4>
+      <!-- <p>The .thumbnail class can be used to display an image gallery.</p> -->
+      <!-- <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p> -->
+      <div class="row zero-padding"> <!--riga 1 tempi passati-->
+        <div class="col-md-6">
+          <div class="thumbnail">
+
+              <img src="img/immagini cartiera albanesi/def2 giusto.jpg" alt="Lights"  class="img-responsive" width=100%>
+              <div class="caption">
+                <p>stand delle cartiere durante la "settimana Jesina",1941.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="thumbnail">
+
+              <img src="img/immagini cartiera albanesi/def1 giusto.jpg" alt="Nature" class="img-responsive" width=100%>
+              <div class="caption">
+                <p>sala confezione sacchi</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <hr>
+<div class="row big-padding" id="Bibliografia">
+<div class="col-sm-12">
+<p><b>Bibliografia</b></p>
+  <ul>
+  <li>www.piccolabibliotecajesina.it </li>
+	<li>Wikipedia.it</li>
+	<li>www.focus Junior.it</li>
+	<li>Luconi G., Cocola P., Conoscere Jesi, Jesi 2008</li>
+	<li>Formiconi A., La seta nelle Marche, Jesi 2013</li>
+	<li>Gaudenzi G., Storia dell’industria jesina e movimento economico connesso, Jesi 1984</li>
+	</ul>
+ </p>
+</div>
+</div>
+
+
+</div><!-- / container -->
+
+<!-- INIZIO footer  -->
+<div id="footerWrap" class="voffset5">
+  <footer class="container">
+    <p class="p_center">PON Patrimonio ... made by Dept. of Computer SCience - Liceo Da Vinci Jesi (AN)</p>
+  </footer>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+	$('body').scrollspy({ target: '#navbar-example' });
+
+	$(".navbar-collapse ul li a[href^='#']").on('click',function(e){
+
+		target = this.hash;
+		e.preventDefault();
+
+		$('html,body').animate({
+			scrollTop : $(this.hash).offset().top
+		}, 600, function(){
+			window.location.hash = target;
+		});
+
+	});
+
+</script>
+
+</body>
+</html>

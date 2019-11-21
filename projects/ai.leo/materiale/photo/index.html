@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cedi la tua immagine per il progetto AI.LEO</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+ 
+<!--[if lt IE 9]>       
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.js"></script>
+<![endif]-->
+
+
+</head>
+
+
+<body>
+
+<!-- HEADER -->
+<div id="headerWrap">
+  <header class="container voffset3">
+    <nav id="mainNav" class="navbar navbar-inverse" role="navigation">
+      <h1>CARICA I TUOI DATI QUI</h1>
+    </nav>
+  </header>
+</div>
+
+<!-- CONTAINER -->
+<div class="container voffset3">
+
+
+<!-- CONTENT -->
+<div id="content">
+
+<form action="engine.php" method="post" name="contactform" id="contact">
+<fieldset class="form-group col-sm-12">
+
+<legend class="col-form-legend col-sm-12">Dati Personali</legend>
+
+<br />
+<br />
+<br />
+
+<div class="form-group row">
+<label for="nome" class="col-sm-2 col-form-label">Codice</label>
+<div class="col-sm-10">
+<input tabindex="1" type="text" class="form-control" name="codice" id="codice" value="" placeholder="Il nome utente con cui accedi alla rete. Es: s1234 oppure doc.cognome.n" required />
+</div>
+</div>
+
+</fieldset>
+
+<div class="form-group col-sm-12">
+
+
+<div class="form-group col-sm-2">
+<img src="images/00001.JPG" alt="immagine frontale" class="w3-image">
+Metti il viso come in figura e pigia il bottone...
+<br>
+<video id="video" width="200" height="150" autoplay></video>
+<br>
+<button id="snap">Foto1</button>
+<br>
+<canvas id="canvas" width="200" height="150"></canvas>
+</div>
+
+<div class="form-group col-sm-2">
+<img src="images/00002.JPG" alt="immagine frontale" class="w3-image">
+Metti il viso come in figura e pigia il bottone...
+<br>
+<video id="video" width="200" height="150" autoplay></video>
+<br>
+<button id="snap">Foto2</button>
+<br>
+<canvas id="canvas" width="200" height="150"></canvas>
+</div>
+
+<div class="form-group col-sm-2">
+<img src="images/00003.JPG" alt="immagine frontale" class="w3-image">
+Metti il viso come in figura e pigia il bottone...
+<br>
+<video id="video" width="200" height="150" autoplay></video>
+<br>
+<button id="snap">Foto3</button>
+<br>
+<canvas id="canvas" width="200" height="150"></canvas>
+</div>
+
+<div class="form-group col-sm-2">
+<img src="images/00004.JPG" alt="immagine frontale" class="w3-image">
+Metti il viso come in figura e pigia il bottone...
+<br>
+<video id="video" width="200" height="150" autoplay></video>
+<br>
+<button id="snap">Foto4</button>
+<br>
+<canvas id="canvas" width="200" height="150"></canvas>
+</div>
+
+<div class="form-group col-sm-2">
+<img src="images/00005.JPG" alt="immagine frontale" class="w3-image">
+Metti il viso come in figura e pigia il bottone...
+<br>
+<video id="video" width="200" height="150" autoplay></video>
+<br>
+<button id="snap">Foto5</button>
+<br>
+<canvas id="canvas" width="200" height="150"></canvas>
+</div>
+
+
+</div>
+
+
+<!-- 
+<video id="video" width="300" height="200" autoplay></video>
+<button id="snap">Snap Photo</button>
+<canvas id="canvas" width="300" height="200"></canvas>
+
+<button type="submit" class="btn btn-success">Registrati</button>
+<button type="reset" class="btn btn-warning">Cancella</button>
+-->
+
+</form>
+</div>
+</div>
+
+<!-- FOOTERWRAP -->
+<div id="footerWrap" class="voffset5">
+  <footer class="container">
+    <p class="text-center">Liceo "Da Vinci", Jesi (AN). Some rights reserved ;)</p>
+  </footer>
+</div>
+
+<!-- caricali alla fine...  -->
+<script src="js/jquery-1.11.2.min.js"></script> 
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="photosnap.js"></script>
+
+</body>
+</html>
